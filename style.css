@@ -13,6 +13,7 @@ body {
 .birthday-card {
     position: absolute;
     /* margin: 40px auto; */
+    border-radius: 4px;
     padding: 16px;
     width: 400px;
     height: 600px;
@@ -47,3 +48,11 @@ body {
     text-decoration: none;
 }
 
+.next {
+  background-color: white;
+  color: black;
+  padding: 9px 26px;
+  border-radius: 9px;
+  border: 2px solid #800080; /* Green */
+  font-size: 18px;
+}
