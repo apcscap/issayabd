@@ -45,3 +45,19 @@ function flip34() {
     }, 1000);
     
 }
+
+function flip45() {
+    $('#next45').prop('disabled', true)
+    var audio = new Audio('https://www.soundjay.com/misc/sounds/page-flip-01a.mp3');
+    audio.volume = 0.3
+    audio.play();
+    
+    setTimeout(
+    function() 
+    {
+        //do something special
+        $('#card4').hide();
+        $('#card5').show();
+    }, 1000);
+    
+}
