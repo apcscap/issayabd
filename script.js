@@ -61,3 +61,19 @@ function flip45() {
     }, 1000);
     
 }
+
+function flip56() {
+    $('#next56').prop('disabled', true)
+    var audio = new Audio('https://www.soundjay.com/misc/sounds/page-flip-01a.mp3');
+    audio.volume = 0.3
+    audio.play();
+    
+    setTimeout(
+    function() 
+    {
+        //do something special
+        $('#card5').hide();
+        $('#card6').show();
+    }, 1000);
+    
+}
